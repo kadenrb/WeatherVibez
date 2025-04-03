@@ -39,14 +39,6 @@ namespace WeatherVibez.Controllers
 			return View();
 		}
 
-		// GET: /Home/Error
-		// Displays the error page with error details
-		[ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-		public IActionResult Error()
-		{
-			return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
-		}
-
 		// GET: /login
 		// Displays the login page
 		[Route("login")]

@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\kaden\\OneDrive\\Desktop\\WeatherVibez\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{7F5B4D83-6D52-41EF-AA24-2C415CAE6171}|WeatherVibez.csproj|c:\\users\\kaden\\onedrive\\desktop\\weathervibez\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F5B4D83-6D52-41EF-AA24-2C415CAE6171}|WeatherVibez.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{7F5B4D83-6D52-41EF-AA24-2C415CAE6171}|WeatherVibez.csproj|c:\\users\\kaden\\onedrive\\desktop\\weathervibez\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7F5B4D83-6D52-41EF-AA24-2C415CAE6171}|WeatherVibez.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -111,10 +115,6 @@
       "RelativeMoniker": "D:0:0:{7F5B4D83-6D52-41EF-AA24-2C415CAE6171}|WeatherVibez.csproj|solutionrelative:cutomclaims\\customclaims.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7F5B4D83-6D52-41EF-AA24-2C415CAE6171}|WeatherVibez.csproj|c:\\users\\kaden\\onedrive\\desktop\\weathervibez\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7F5B4D83-6D52-41EF-AA24-2C415CAE6171}|WeatherVibez.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{7F5B4D83-6D52-41EF-AA24-2C415CAE6171}|WeatherVibez.csproj|c:\\users\\kaden\\onedrive\\desktop\\weathervibez\\controllers\\paymentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7F5B4D83-6D52-41EF-AA24-2C415CAE6171}|WeatherVibez.csproj|solutionrelative:controllers\\paymentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -207,7 +207,7 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "CompareWeather.cshtml",
               "DocumentMoniker": "C:\\Users\\kaden\\OneDrive\\Desktop\\WeatherVibez\\Views\\Weather\\CompareWeather.cshtml",
               "RelativeDocumentMoniker": "Views\\Weather\\CompareWeather.cshtml",
@@ -216,8 +216,7 @@
               "ViewState": "AgIAAD0AAAAAAAAAAAAswE4AAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-04-01T23:49:50.318Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
@@ -230,8 +229,7 @@
               "ViewState": "AgIAAMcAAAAAAAAAAADwv9oAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-03T04:38:19.66Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
@@ -244,25 +242,11 @@
               "ViewState": "AgIAAMAAAAAAAAAAAAAIwEEAAABDAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-27T21:46:43.273Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\kaden\\OneDrive\\Desktop\\WeatherVibez\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "C:\\Users\\kaden\\OneDrive\\Desktop\\WeatherVibez\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-03-26T21:49:36.191Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\kaden\\OneDrive\\Desktop\\WeatherVibez\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -275,7 +259,24 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\kaden\\OneDrive\\Desktop\\WeatherVibez\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\kaden\\OneDrive\\Desktop\\WeatherVibez\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAYwCcAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T21:43:56.641Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "_ViewImports.cshtml",
               "DocumentMoniker": "C:\\Users\\kaden\\OneDrive\\Desktop\\WeatherVibez\\Views\\_ViewImports.cshtml",
               "RelativeDocumentMoniker": "Views\\_ViewImports.cshtml",
@@ -283,12 +284,23 @@
               "RelativeToolTip": "Views\\_ViewImports.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-26T22:07:38.904Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-26T22:07:38.904Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\kaden\\OneDrive\\Desktop\\WeatherVibez\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\kaden\\OneDrive\\Desktop\\WeatherVibez\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-26T21:49:36.191Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "_ViewStart.cshtml",
               "DocumentMoniker": "C:\\Users\\kaden\\OneDrive\\Desktop\\WeatherVibez\\Views\\_ViewStart.cshtml",
               "RelativeDocumentMoniker": "Views\\_ViewStart.cshtml",
@@ -296,12 +308,11 @@
               "RelativeToolTip": "Views\\_ViewStart.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-26T22:14:23.062Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-26T22:14:23.062Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "SearchWeather.cshtml",
               "DocumentMoniker": "C:\\Users\\kaden\\OneDrive\\Desktop\\WeatherVibez\\Views\\Weather\\SearchWeather.cshtml",
               "RelativeDocumentMoniker": "Views\\Weather\\SearchWeather.cshtml",
@@ -309,12 +320,11 @@
               "RelativeToolTip": "Views\\Weather\\SearchWeather.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAJwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-27T22:44:01.972Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-27T22:44:01.972Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "testingAdmin.cshtml",
               "DocumentMoniker": "C:\\Users\\kaden\\OneDrive\\Desktop\\WeatherVibez\\Views\\Users\\testingAdmin.cshtml",
               "RelativeDocumentMoniker": "Views\\Users\\testingAdmin.cshtml",
@@ -322,12 +332,11 @@
               "RelativeToolTip": "Views\\Users\\testingAdmin.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-27T00:41:22.731Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-27T00:41:22.731Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "Overview.cshtml",
               "DocumentMoniker": "C:\\Users\\kaden\\OneDrive\\Desktop\\WeatherVibez\\Views\\Users\\Overview.cshtml",
               "RelativeDocumentMoniker": "Views\\Users\\Overview.cshtml",
@@ -335,12 +344,11 @@
               "RelativeToolTip": "Views\\Users\\Overview.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAABGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-26T21:49:17.192Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-26T21:49:17.192Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\kaden\\OneDrive\\Desktop\\WeatherVibez\\Views\\Users\\Create.cshtml",
               "RelativeDocumentMoniker": "Views\\Users\\Create.cshtml",
@@ -348,12 +356,11 @@
               "RelativeToolTip": "Views\\Users\\Create.cshtml",
               "ViewState": "AgIAACcAAAAAAAAAAAAAAEoAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-26T21:49:05.727Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-26T21:49:05.727Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "_ValidationScriptsPartial.cshtml",
               "DocumentMoniker": "C:\\Users\\kaden\\OneDrive\\Desktop\\WeatherVibez\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
@@ -361,12 +368,11 @@
               "RelativeToolTip": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-26T21:48:59.395Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-26T21:48:59.395Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "_LayoutPublic.cshtml",
               "DocumentMoniker": "C:\\Users\\kaden\\OneDrive\\Desktop\\WeatherVibez\\Views\\Shared\\_LayoutPublic.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_LayoutPublic.cshtml",
@@ -374,12 +380,11 @@
               "RelativeToolTip": "Views\\Shared\\_LayoutPublic.cshtml",
               "ViewState": "AgIAABsAAAAAAAAAAAAAAEoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-30T21:34:21.719Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-30T21:34:21.719Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "_LayoutLoggedIn.cshtml",
               "DocumentMoniker": "C:\\Users\\kaden\\OneDrive\\Desktop\\WeatherVibez\\Views\\Shared\\_LayoutLoggedIn.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_LayoutLoggedIn.cshtml",
@@ -387,12 +392,11 @@
               "RelativeToolTip": "Views\\Shared\\_LayoutLoggedIn.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAH4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-26T21:48:58.111Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-26T21:48:58.111Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "PurchasePremium.cshtml",
               "DocumentMoniker": "C:\\Users\\kaden\\OneDrive\\Desktop\\WeatherVibez\\Views\\Premium\\PurchasePremium.cshtml",
               "RelativeDocumentMoniker": "Views\\Premium\\PurchasePremium.cshtml",
@@ -400,12 +404,11 @@
               "RelativeToolTip": "Views\\Premium\\PurchasePremium.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-03T04:29:00.166Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-03T04:29:00.166Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "PremiumNotifications.cshtml",
               "DocumentMoniker": "C:\\Users\\kaden\\OneDrive\\Desktop\\WeatherVibez\\Views\\Premium\\PremiumNotifications.cshtml",
               "RelativeDocumentMoniker": "Views\\Premium\\PremiumNotifications.cshtml",
@@ -413,12 +416,11 @@
               "RelativeToolTip": "Views\\Premium\\PremiumNotifications.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-03T05:35:27.77Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-03T05:35:27.77Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "PaymentSuccess.cshtml",
               "DocumentMoniker": "C:\\Users\\kaden\\OneDrive\\Desktop\\WeatherVibez\\Views\\Payments\\PaymentSuccess.cshtml",
               "RelativeDocumentMoniker": "Views\\Payments\\PaymentSuccess.cshtml",
@@ -426,12 +428,11 @@
               "RelativeToolTip": "Views\\Payments\\PaymentSuccess.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-28T23:10:24.964Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-28T23:10:24.964Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "Balance.cshtml",
               "DocumentMoniker": "C:\\Users\\kaden\\OneDrive\\Desktop\\WeatherVibez\\Views\\Payments\\Balance.cshtml",
               "RelativeDocumentMoniker": "Views\\Payments\\Balance.cshtml",
@@ -439,12 +440,11 @@
               "RelativeToolTip": "Views\\Payments\\Balance.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAD8AAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-28T23:06:10.096Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-28T23:06:10.096Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "Login.cshtml",
               "DocumentMoniker": "C:\\Users\\kaden\\OneDrive\\Desktop\\WeatherVibez\\Views\\Home\\Login.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Login.cshtml",
@@ -452,12 +452,11 @@
               "RelativeToolTip": "Views\\Home\\Login.cshtml",
               "ViewState": "AgIAAAEAAAAAAAAAAAAswEkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-26T21:47:51.376Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-26T21:47:51.376Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\kaden\\OneDrive\\Desktop\\WeatherVibez\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
@@ -465,12 +464,11 @@
               "RelativeToolTip": "Views\\Home\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-26T21:47:48.134Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-26T21:47:48.134Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "UserDetails.cs",
               "DocumentMoniker": "C:\\Users\\kaden\\OneDrive\\Desktop\\WeatherVibez\\ViewModels\\UserDetails.cs",
               "RelativeDocumentMoniker": "ViewModels\\UserDetails.cs",
@@ -478,12 +476,11 @@
               "RelativeToolTip": "ViewModels\\UserDetails.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-26T22:53:16.518Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-26T22:53:16.518Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "LoginViewModel.cs",
               "DocumentMoniker": "C:\\Users\\kaden\\OneDrive\\Desktop\\WeatherVibez\\ViewModels\\LoginViewModel.cs",
               "RelativeDocumentMoniker": "ViewModels\\LoginViewModel.cs",
@@ -491,12 +488,11 @@
               "RelativeToolTip": "ViewModels\\LoginViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-26T21:47:34.299Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-26T21:47:34.299Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "CityComparison.cs",
               "DocumentMoniker": "C:\\Users\\kaden\\OneDrive\\Desktop\\WeatherVibez\\ViewModels\\CityComparison.cs",
               "RelativeDocumentMoniker": "ViewModels\\CityComparison.cs",
@@ -504,12 +500,11 @@
               "RelativeToolTip": "ViewModels\\CityComparison.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-01T23:40:57.493Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-01T23:40:57.493Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "JwtService.cs",
               "DocumentMoniker": "C:\\Users\\kaden\\OneDrive\\Desktop\\WeatherVibez\\Services\\JwtService.cs",
               "RelativeDocumentMoniker": "Services\\JwtService.cs",
@@ -517,12 +512,11 @@
               "RelativeToolTip": "Services\\JwtService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAEoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-26T21:47:12.738Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-26T21:47:12.738Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "WeatherModel.cs",
               "DocumentMoniker": "C:\\Users\\kaden\\OneDrive\\Desktop\\WeatherVibez\\Models\\WeatherModel.cs",
               "RelativeDocumentMoniker": "Models\\WeatherModel.cs",
@@ -530,12 +524,11 @@
               "RelativeToolTip": "Models\\WeatherModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-01T05:32:43.144Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-01T05:32:43.144Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 24,
               "Title": "WeatherApiData.cs",
               "DocumentMoniker": "C:\\Users\\kaden\\OneDrive\\Desktop\\WeatherVibez\\Models\\WeatherApiData.cs",
               "RelativeDocumentMoniker": "Models\\WeatherApiData.cs",
@@ -543,12 +536,11 @@
               "RelativeToolTip": "Models\\WeatherApiData.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-01T06:23:09.018Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-01T06:23:09.018Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 25,
               "Title": "UserDbContext.cs",
               "DocumentMoniker": "C:\\Users\\kaden\\OneDrive\\Desktop\\WeatherVibez\\Models\\UserDbContext.cs",
               "RelativeDocumentMoniker": "Models\\UserDbContext.cs",
@@ -556,12 +548,11 @@
               "RelativeToolTip": "Models\\UserDbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-26T21:46:50.234Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-26T21:46:50.234Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 26,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\kaden\\OneDrive\\Desktop\\WeatherVibez\\Models\\User.cs",
               "RelativeDocumentMoniker": "Models\\User.cs",
@@ -569,12 +560,11 @@
               "RelativeToolTip": "Models\\User.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-26T21:45:59.814Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-26T21:45:59.814Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 27,
               "Title": "CustomClaims.cs",
               "DocumentMoniker": "C:\\Users\\kaden\\OneDrive\\Desktop\\WeatherVibez\\CutomClaims\\CustomClaims.cs",
               "RelativeDocumentMoniker": "CutomClaims\\CustomClaims.cs",
@@ -582,21 +572,7 @@
               "RelativeToolTip": "CutomClaims\\CustomClaims.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-27T20:34:27.497Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\kaden\\OneDrive\\Desktop\\WeatherVibez\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\kaden\\OneDrive\\Desktop\\WeatherVibez\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAG0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-26T21:43:56.641Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-27T20:34:27.497Z"
             },
             {
               "$type": "Document",
@@ -608,8 +584,7 @@
               "RelativeToolTip": "Controllers\\PaymentsController.cs",
               "ViewState": "AgIAAEsAAAAAAAAAAAAswGIAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-28T00:00:57.01Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-28T00:00:57.01Z"
             },
             {
               "$type": "Document",
@@ -621,12 +596,7 @@
               "RelativeToolTip": "Controllers\\UsersController.cs",
               "ViewState": "AgIAAHUAAAAAAAAAAAAAAFIAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-26T21:44:53.066Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+              "WhenOpened": "2025-03-26T21:44:53.066Z"
             },
             {
               "$type": "Document",
