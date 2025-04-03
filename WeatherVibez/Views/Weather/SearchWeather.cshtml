@@ -1,0 +1,156 @@
+﻿@model WeatherVibez.Models.WeatherModel
+
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-10">
+            <div class="card shadow-lg">
+                <div class="card-header bg-primary text-white d-flex justify-content-between align-items-center">
+                    <h2 class="mb-0">Weather Search</h2>
+                    <!-- Link to the CompareWeather action in WeatherController -->
+                    <a href="@Url.Action("CompareWeather", "Weather")"
+                       class="btn btn-outline-light btn-sm">
+                        Compare Cities
+                    </a>
+                </div>
+                <div class="card-body">
+                    <!-- Form to search for weather in a city -->
+                    <form asp-action="SearchWeather" method="post">
+                        <div class="mb-3">
+                            <!-- Input for the city name -->
+                            <input type="text" class="form-control form-control-lg"
+                                   name="city" placeholder="Enter city  (ex. Red Deer)" required>
+                        </div>
+                        <div class="mb-4">
+                            <div class="input-group">
+                                <span class="input-group-text text-bg-primary">
+                                    <i class="bi bi-telephone-plus"></i>
+                                    +1
+                                </span>
+                                <!-- Input for the phone number (optional) -->
+                                <input type="tel" class="form-control form-control-lg"
+                                       name="phoneNumber" placeholder="Phone for weather details (Optional, send it to a friend though our SMS!)">
+                            </div>
+                        </div>
+                        <!-- Button to submit the form and get weather details -->
+                        <button type="submit" class="btn btn-primary btn-lg w-100">
+                            <i class="bi bi-cloud-sun"></i> Get Weather
+                        </button>
+                    </form>
+                </div>
+
+                <!-- Alerts for success or error messages -->
+                @if (TempData["Alert"] != null)
+                {
+                    <div class="alert alert-success mt-4 mx-3">
+                        @TempData["Alert"]
+                    </div>
+                }
+                @if (TempData["Error"] != null)
+                {
+                    <div class="alert alert-danger mt-4 mx-3">
+                        @TempData["Error"]
+                    </div>
+                }
+
+                @if (Model != null)
+                {
+                    <div class="card mt-4 shadow-sm">
+                        <div class="card-header bg-info text-white d-flex justify-content-between align-items-center">
+                            <h3 class="mb-0">@Model.City Weather</h3>
+                            <div class="badge bg-light text-dark fs-6">
+                                <i class="bi bi-clock-history"></i> Updated @DateTime.Now.ToString("h:mm tt")
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <div class="row">
+                                <!-- Weather Details -->
+                                <div class="col-md-6">
+                                    <div class="weather-details">
+                                        <div class="d-flex align-items-center mb-3">
+                                            <i class="bi bi-thermometer-half fs-1 text-primary"></i>
+                                            <div class="ms-3">
+                                                <h4 class="mb-0">@Model.Temperature°C</h4>
+                                            </div>
+                                        </div>
+
+                                        <div class="list-group">
+                                            <div class="list-group-item">
+                                                <i class="bi bi-arrow-up-circle text-danger"></i>
+                                                High: @Model.TempMax°C
+                                            </div>
+                                            <div class="list-group-item">
+                                                <i class="bi bi-arrow-down-circle text-primary"></i>
+                                                Low: @Model.TempMin°C
+                                            </div>
+                                            <div class="list-group-item">
+                                                <i class="bi bi-droplet text-info"></i>
+                                                Humidity: @Model.Humidity%
+                                            </div>
+                                            <div class="list-group-item">
+                                                <i class="bi bi-text-left"></i>
+                                                The conditions are @Model.Description
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Chart that displays the specified city -->
+                                <div class="col-lg-6 mt-4 mt-md-0">
+                                    <div class="card h-100">
+                                        <div class="card-header bg-secondary text-white">
+                                            Visual Temperature Data
+                                        </div>
+                                        <div class="card-body">
+                                            <!-- Using the GenerateChart action in the WeatherController to get the API graph image -->
+                                            <img src="@Url.Action("GenerateChart", "Weather", new {
+                                                temp = Model.Temperature,
+                                                tempMin = Model.TempMin,
+                                                tempMax = Model.TempMax
+                                            })"
+                                                 class="img-fluid rounded-3"
+                                                 alt="Temperature Chart">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+    .weather-details .list-group-item {
+        border: none;
+        padding: 1rem 1.25rem;
+        background-color: rgba(248, 249, 250, 0.5);
+    }
+
+    .card {
+        border-radius: 1.25rem;
+        overflow: hidden;
+        transition: transform 0.3s ease;
+    }
+
+        .card:hover {
+            transform: translateY(-5px);
+        }
+
+    .form-control-lg {
+        border-radius: 0.75rem;
+        border: 2px solid #dee2e6;
+    }
+
+    .input-group-text {
+        background-color: #e9ecef;
+        border: 2px solid #dee2e6;
+    }
+
+    .bi {
+        margin-right: 8px;
+    }
+</style>
+
+

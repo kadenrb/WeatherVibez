@@ -1,0 +1,75 @@
+﻿@model User
+
+@{
+    Layout = "_LayoutPublic";
+    ViewData["Title"] = "Create User";
+}
+
+<style>
+    /* Create view specific adjustments */
+    .create-view-wrapper {
+        min-height: calc(100vh - 160px); /* Account for navbar+footer */
+        display: flex;
+        align-items: center;
+    }
+
+    .create-view-card {
+        width: 100%;
+        max-width: 500px;
+        margin: 0 auto;
+    }
+</style>
+
+<div class="create-view-wrapper">
+    <div class="create-view-card">
+        <div class="card border-0 shadow-sm">
+            <div class="card-body p-4">
+                <h2 class="text-center mb-4">Create Account</h2>
+
+                <!-- Form to create a new user account -->
+                <form asp-action="Create" method="post">
+                    <div class="mb-3">
+                        <label class="form-label fw-bold">Username</label>
+                        <!-- Input for username, bound to the UserName property in the User model -->
+                        <input type="text" class="form-control"
+                               asp-for="UserName" required>
+                    </div>
+
+                    <div class="mb-3">
+                        <label class="form-label fw-bold">Email</label>
+                        <!-- Input for email, bound to the Email property in the User model -->
+                        <input type="email" class="form-control"
+                               asp-for="Email" required>
+                    </div>
+
+                    <div class="mb-4">
+                        <label class="form-label fw-bold">Password</label>
+                        <!-- Input for password, not bound to the User model directly -->
+                        <input type="password" class="form-control"
+                               name="password" required>
+                    </div>
+
+                    @if (!ViewData.ModelState.IsValid)
+                    {
+                        <!-- Display validation errors if the model state is invalid -->
+                        <div class="alert alert-danger mb-4">
+                            @Html.ValidationSummary()
+                        </div>
+                    }
+
+                    <div class="d-grid gap-2">
+                        <!-- Button to submit the form and create the account -->
+                        <button type="submit" class="btn btn-primary">
+                            Create Account
+                        </button>
+                        <!-- Link to go back to the Home page -->
+                        <a href="@Url.Action("Index", "Home")"
+                           class="btn btn-outline-secondary">
+                            Back to Home
+                        </a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

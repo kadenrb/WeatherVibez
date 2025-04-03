@@ -1,0 +1,22 @@
+﻿@{
+    ViewData["Title"] = "Payment Success";
+}
+
+<div class="container mt-5">
+    <div class="card shadow-lg">
+        <div class="card-header bg-success text-white">
+            <h1 class="card-title mb-0">
+                <!-- Icon and title indicating payment confirmation -->
+                <i class="bi bi-check-circle-fill me-2"></i>Payment Confirmed
+            </h1>
+        </div>
+        <div class="card-body text-center py-5">
+            <!-- Message indicating successful addition of funds -->
+            <p class="lead">Your funds have been successfully added to your account!</p>
+            <!-- Button to navigate back to the Balance view -->
+            <a asp-action="Balance" class="btn btn-primary btn-lg mt-4">
+                Back to Balance
+            </a>
+        </div>
+    </div>
+</div>

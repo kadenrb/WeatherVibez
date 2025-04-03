@@ -1,0 +1,830 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\kaden\\OneDrive\\Desktop\\WeatherVibez\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7F5B4D83-6D52-41EF-AA24-2C415CAE6171}|WeatherVibez.csproj|c:\\users\\kaden\\onedrive\\desktop\\weathervibez\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F5B4D83-6D52-41EF-AA24-2C415CAE6171}|WeatherVibez.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F5B4D83-6D52-41EF-AA24-2C415CAE6171}|WeatherVibez.csproj|c:\\users\\kaden\\onedrive\\desktop\\weathervibez\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{7F5B4D83-6D52-41EF-AA24-2C415CAE6171}|WeatherVibez.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F5B4D83-6D52-41EF-AA24-2C415CAE6171}|WeatherVibez.csproj|c:\\users\\kaden\\onedrive\\desktop\\weathervibez\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7F5B4D83-6D52-41EF-AA24-2C415CAE6171}|WeatherVibez.csproj|solutionrelative:views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F5B4D83-6D52-41EF-AA24-2C415CAE6171}|WeatherVibez.csproj|c:\\users\\kaden\\onedrive\\desktop\\weathervibez\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7F5B4D83-6D52-41EF-AA24-2C415CAE6171}|WeatherVibez.csproj|solutionrelative:views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F5B4D83-6D52-41EF-AA24-2C415CAE6171}|WeatherVibez.csproj|c:\\users\\kaden\\onedrive\\desktop\\weathervibez\\views\\weather\\searchweather.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7F5B4D83-6D52-41EF-AA24-2C415CAE6171}|WeatherVibez.csproj|solutionrelative:views\\weather\\searchweather.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F5B4D83-6D52-41EF-AA24-2C415CAE6171}|WeatherVibez.csproj|c:\\users\\kaden\\onedrive\\desktop\\weathervibez\\views\\weather\\compareweather.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7F5B4D83-6D52-41EF-AA24-2C415CAE6171}|WeatherVibez.csproj|solutionrelative:views\\weather\\compareweather.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F5B4D83-6D52-41EF-AA24-2C415CAE6171}|WeatherVibez.csproj|c:\\users\\kaden\\onedrive\\desktop\\weathervibez\\views\\users\\testingadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7F5B4D83-6D52-41EF-AA24-2C415CAE6171}|WeatherVibez.csproj|solutionrelative:views\\users\\testingadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F5B4D83-6D52-41EF-AA24-2C415CAE6171}|WeatherVibez.csproj|c:\\users\\kaden\\onedrive\\desktop\\weathervibez\\views\\users\\overview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7F5B4D83-6D52-41EF-AA24-2C415CAE6171}|WeatherVibez.csproj|solutionrelative:views\\users\\overview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F5B4D83-6D52-41EF-AA24-2C415CAE6171}|WeatherVibez.csproj|c:\\users\\kaden\\onedrive\\desktop\\weathervibez\\views\\users\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7F5B4D83-6D52-41EF-AA24-2C415CAE6171}|WeatherVibez.csproj|solutionrelative:views\\users\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F5B4D83-6D52-41EF-AA24-2C415CAE6171}|WeatherVibez.csproj|c:\\users\\kaden\\onedrive\\desktop\\weathervibez\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7F5B4D83-6D52-41EF-AA24-2C415CAE6171}|WeatherVibez.csproj|solutionrelative:views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F5B4D83-6D52-41EF-AA24-2C415CAE6171}|WeatherVibez.csproj|c:\\users\\kaden\\onedrive\\desktop\\weathervibez\\views\\shared\\_layoutpublic.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7F5B4D83-6D52-41EF-AA24-2C415CAE6171}|WeatherVibez.csproj|solutionrelative:views\\shared\\_layoutpublic.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F5B4D83-6D52-41EF-AA24-2C415CAE6171}|WeatherVibez.csproj|c:\\users\\kaden\\onedrive\\desktop\\weathervibez\\views\\shared\\_layoutloggedin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7F5B4D83-6D52-41EF-AA24-2C415CAE6171}|WeatherVibez.csproj|solutionrelative:views\\shared\\_layoutloggedin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F5B4D83-6D52-41EF-AA24-2C415CAE6171}|WeatherVibez.csproj|c:\\users\\kaden\\onedrive\\desktop\\weathervibez\\views\\premium\\purchasepremium.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7F5B4D83-6D52-41EF-AA24-2C415CAE6171}|WeatherVibez.csproj|solutionrelative:views\\premium\\purchasepremium.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F5B4D83-6D52-41EF-AA24-2C415CAE6171}|WeatherVibez.csproj|c:\\users\\kaden\\onedrive\\desktop\\weathervibez\\views\\premium\\premiumnotifications.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7F5B4D83-6D52-41EF-AA24-2C415CAE6171}|WeatherVibez.csproj|solutionrelative:views\\premium\\premiumnotifications.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F5B4D83-6D52-41EF-AA24-2C415CAE6171}|WeatherVibez.csproj|c:\\users\\kaden\\onedrive\\desktop\\weathervibez\\views\\payments\\paymentsuccess.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7F5B4D83-6D52-41EF-AA24-2C415CAE6171}|WeatherVibez.csproj|solutionrelative:views\\payments\\paymentsuccess.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F5B4D83-6D52-41EF-AA24-2C415CAE6171}|WeatherVibez.csproj|c:\\users\\kaden\\onedrive\\desktop\\weathervibez\\views\\payments\\balance.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7F5B4D83-6D52-41EF-AA24-2C415CAE6171}|WeatherVibez.csproj|solutionrelative:views\\payments\\balance.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F5B4D83-6D52-41EF-AA24-2C415CAE6171}|WeatherVibez.csproj|c:\\users\\kaden\\onedrive\\desktop\\weathervibez\\views\\home\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7F5B4D83-6D52-41EF-AA24-2C415CAE6171}|WeatherVibez.csproj|solutionrelative:views\\home\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F5B4D83-6D52-41EF-AA24-2C415CAE6171}|WeatherVibez.csproj|c:\\users\\kaden\\onedrive\\desktop\\weathervibez\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7F5B4D83-6D52-41EF-AA24-2C415CAE6171}|WeatherVibez.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F5B4D83-6D52-41EF-AA24-2C415CAE6171}|WeatherVibez.csproj|c:\\users\\kaden\\onedrive\\desktop\\weathervibez\\viewmodels\\userdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F5B4D83-6D52-41EF-AA24-2C415CAE6171}|WeatherVibez.csproj|solutionrelative:viewmodels\\userdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F5B4D83-6D52-41EF-AA24-2C415CAE6171}|WeatherVibez.csproj|c:\\users\\kaden\\onedrive\\desktop\\weathervibez\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F5B4D83-6D52-41EF-AA24-2C415CAE6171}|WeatherVibez.csproj|solutionrelative:viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F5B4D83-6D52-41EF-AA24-2C415CAE6171}|WeatherVibez.csproj|c:\\users\\kaden\\onedrive\\desktop\\weathervibez\\viewmodels\\citycomparison.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F5B4D83-6D52-41EF-AA24-2C415CAE6171}|WeatherVibez.csproj|solutionrelative:viewmodels\\citycomparison.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F5B4D83-6D52-41EF-AA24-2C415CAE6171}|WeatherVibez.csproj|c:\\users\\kaden\\onedrive\\desktop\\weathervibez\\services\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F5B4D83-6D52-41EF-AA24-2C415CAE6171}|WeatherVibez.csproj|solutionrelative:services\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F5B4D83-6D52-41EF-AA24-2C415CAE6171}|WeatherVibez.csproj|c:\\users\\kaden\\onedrive\\desktop\\weathervibez\\models\\weathermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F5B4D83-6D52-41EF-AA24-2C415CAE6171}|WeatherVibez.csproj|solutionrelative:models\\weathermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F5B4D83-6D52-41EF-AA24-2C415CAE6171}|WeatherVibez.csproj|c:\\users\\kaden\\onedrive\\desktop\\weathervibez\\models\\weatherapidata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F5B4D83-6D52-41EF-AA24-2C415CAE6171}|WeatherVibez.csproj|solutionrelative:models\\weatherapidata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F5B4D83-6D52-41EF-AA24-2C415CAE6171}|WeatherVibez.csproj|c:\\users\\kaden\\onedrive\\desktop\\weathervibez\\models\\userdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F5B4D83-6D52-41EF-AA24-2C415CAE6171}|WeatherVibez.csproj|solutionrelative:models\\userdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F5B4D83-6D52-41EF-AA24-2C415CAE6171}|WeatherVibez.csproj|c:\\users\\kaden\\onedrive\\desktop\\weathervibez\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F5B4D83-6D52-41EF-AA24-2C415CAE6171}|WeatherVibez.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F5B4D83-6D52-41EF-AA24-2C415CAE6171}|WeatherVibez.csproj|c:\\users\\kaden\\onedrive\\desktop\\weathervibez\\cutomclaims\\customclaims.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F5B4D83-6D52-41EF-AA24-2C415CAE6171}|WeatherVibez.csproj|solutionrelative:cutomclaims\\customclaims.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F5B4D83-6D52-41EF-AA24-2C415CAE6171}|WeatherVibez.csproj|c:\\users\\kaden\\onedrive\\desktop\\weathervibez\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F5B4D83-6D52-41EF-AA24-2C415CAE6171}|WeatherVibez.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F5B4D83-6D52-41EF-AA24-2C415CAE6171}|WeatherVibez.csproj|c:\\users\\kaden\\onedrive\\desktop\\weathervibez\\controllers\\paymentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F5B4D83-6D52-41EF-AA24-2C415CAE6171}|WeatherVibez.csproj|solutionrelative:controllers\\paymentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F5B4D83-6D52-41EF-AA24-2C415CAE6171}|WeatherVibez.csproj|c:\\users\\kaden\\onedrive\\desktop\\weathervibez\\controllers\\premiumcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F5B4D83-6D52-41EF-AA24-2C415CAE6171}|WeatherVibez.csproj|solutionrelative:controllers\\premiumcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F5B4D83-6D52-41EF-AA24-2C415CAE6171}|WeatherVibez.csproj|c:\\users\\kaden\\onedrive\\desktop\\weathervibez\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F5B4D83-6D52-41EF-AA24-2C415CAE6171}|WeatherVibez.csproj|solutionrelative:controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F5B4D83-6D52-41EF-AA24-2C415CAE6171}|WeatherVibez.csproj|c:\\users\\kaden\\onedrive\\desktop\\weathervibez\\controllers\\weathercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F5B4D83-6D52-41EF-AA24-2C415CAE6171}|WeatherVibez.csproj|solutionrelative:controllers\\weathercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F5B4D83-6D52-41EF-AA24-2C415CAE6171}|WeatherVibez.csproj|c:\\users\\kaden\\onedrive\\desktop\\weathervibez\\weathervibez.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{7F5B4D83-6D52-41EF-AA24-2C415CAE6171}|WeatherVibez.csproj|solutionrelative:weathervibez.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F5B4D83-6D52-41EF-AA24-2C415CAE6171}|WeatherVibez.csproj|c:\\users\\kaden\\onedrive\\desktop\\weathervibez\\models\\smsmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F5B4D83-6D52-41EF-AA24-2C415CAE6171}|WeatherVibez.csproj|solutionrelative:models\\smsmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/VibeVaultDB/True/SqlTable/dbo.AspNetRoles.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/VibeVaultDB/True/SqlTable/dbo.AspNetUserRoles.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/VibeVaultDB/True/SqlTable/dbo.AspNetUsers.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F5B4D83-6D52-41EF-AA24-2C415CAE6171}|WeatherVibez.csproj|c:\\users\\kaden\\onedrive\\desktop\\weathervibez\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{7F5B4D83-6D52-41EF-AA24-2C415CAE6171}|WeatherVibez.csproj|solutionrelative:wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F5B4D83-6D52-41EF-AA24-2C415CAE6171}|WeatherVibez.csproj|c:\\users\\kaden\\onedrive\\desktop\\weathervibez\\views\\shared\\_layoutpublic.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{7F5B4D83-6D52-41EF-AA24-2C415CAE6171}|WeatherVibez.csproj|solutionrelative:views\\shared\\_layoutpublic.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F5B4D83-6D52-41EF-AA24-2C415CAE6171}|WeatherVibez.csproj|c:\\users\\kaden\\onedrive\\desktop\\weathervibez\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{7F5B4D83-6D52-41EF-AA24-2C415CAE6171}|WeatherVibez.csproj|solutionrelative:wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F5B4D83-6D52-41EF-AA24-2C415CAE6171}|WeatherVibez.csproj|c:\\users\\kaden\\onedrive\\desktop\\weathervibez\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{7F5B4D83-6D52-41EF-AA24-2C415CAE6171}|WeatherVibez.csproj|solutionrelative:wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F5B4D83-6D52-41EF-AA24-2C415CAE6171}|WeatherVibez.csproj|c:\\users\\kaden\\onedrive\\desktop\\weathervibez\\views\\shared\\_layoutloggedin.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{7F5B4D83-6D52-41EF-AA24-2C415CAE6171}|WeatherVibez.csproj|solutionrelative:views\\shared\\_layoutloggedin.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F5B4D83-6D52-41EF-AA24-2C415CAE6171}|WeatherVibez.csproj|c:\\users\\kaden\\onedrive\\desktop\\weathervibez\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{7F5B4D83-6D52-41EF-AA24-2C415CAE6171}|WeatherVibez.csproj|solutionrelative:wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F5B4D83-6D52-41EF-AA24-2C415CAE6171}|WeatherVibez.csproj|c:\\users\\kaden\\onedrive\\desktop\\weathervibez\\wwwroot\\favicon.ico||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{7F5B4D83-6D52-41EF-AA24-2C415CAE6171}|WeatherVibez.csproj|solutionrelative:wwwroot\\favicon.ico||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F5B4D83-6D52-41EF-AA24-2C415CAE6171}|WeatherVibez.csproj|c:\\users\\kaden\\onedrive\\desktop\\weathervibez\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{7F5B4D83-6D52-41EF-AA24-2C415CAE6171}|WeatherVibez.csproj|solutionrelative:wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F5B4D83-6D52-41EF-AA24-2C415CAE6171}|WeatherVibez.csproj|c:\\users\\kaden\\onedrive\\desktop\\weathervibez\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{7F5B4D83-6D52-41EF-AA24-2C415CAE6171}|WeatherVibez.csproj|solutionrelative:wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F5B4D83-6D52-41EF-AA24-2C415CAE6171}|WeatherVibez.csproj|c:\\users\\kaden\\onedrive\\desktop\\weathervibez\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{7F5B4D83-6D52-41EF-AA24-2C415CAE6171}|WeatherVibez.csproj|solutionrelative:wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F5B4D83-6D52-41EF-AA24-2C415CAE6171}|WeatherVibez.csproj|c:\\users\\kaden\\onedrive\\desktop\\weathervibez\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{7F5B4D83-6D52-41EF-AA24-2C415CAE6171}|WeatherVibez.csproj|solutionrelative:wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F5B4D83-6D52-41EF-AA24-2C415CAE6171}|WeatherVibez.csproj|c:\\users\\kaden\\onedrive\\desktop\\weathervibez\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{7F5B4D83-6D52-41EF-AA24-2C415CAE6171}|WeatherVibez.csproj|solutionrelative:appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 21,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CompareWeather.cshtml",
+              "DocumentMoniker": "C:\\Users\\kaden\\OneDrive\\Desktop\\WeatherVibez\\Views\\Weather\\CompareWeather.cshtml",
+              "RelativeDocumentMoniker": "Views\\Weather\\CompareWeather.cshtml",
+              "ToolTip": "C:\\Users\\kaden\\OneDrive\\Desktop\\WeatherVibez\\Views\\Weather\\CompareWeather.cshtml",
+              "RelativeToolTip": "Views\\Weather\\CompareWeather.cshtml",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAswE4AAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-01T23:49:50.318Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "PremiumController.cs",
+              "DocumentMoniker": "C:\\Users\\kaden\\OneDrive\\Desktop\\WeatherVibez\\Controllers\\PremiumController.cs",
+              "RelativeDocumentMoniker": "Controllers\\PremiumController.cs",
+              "ToolTip": "C:\\Users\\kaden\\OneDrive\\Desktop\\WeatherVibez\\Controllers\\PremiumController.cs",
+              "RelativeToolTip": "Controllers\\PremiumController.cs",
+              "ViewState": "AgIAAMcAAAAAAAAAAADwv9oAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T04:38:19.66Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "WeatherController.cs",
+              "DocumentMoniker": "C:\\Users\\kaden\\OneDrive\\Desktop\\WeatherVibez\\Controllers\\WeatherController.cs",
+              "RelativeDocumentMoniker": "Controllers\\WeatherController.cs",
+              "ToolTip": "C:\\Users\\kaden\\OneDrive\\Desktop\\WeatherVibez\\Controllers\\WeatherController.cs",
+              "RelativeToolTip": "Controllers\\WeatherController.cs",
+              "ViewState": "AgIAAMAAAAAAAAAAAAAIwEEAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T21:46:43.273Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\kaden\\OneDrive\\Desktop\\WeatherVibez\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\kaden\\OneDrive\\Desktop\\WeatherVibez\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-26T21:49:36.191Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\kaden\\OneDrive\\Desktop\\WeatherVibez\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\kaden\\OneDrive\\Desktop\\WeatherVibez\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T21:49:45.027Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\kaden\\OneDrive\\Desktop\\WeatherVibez\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\kaden\\OneDrive\\Desktop\\WeatherVibez\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-26T22:07:38.904Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\kaden\\OneDrive\\Desktop\\WeatherVibez\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\kaden\\OneDrive\\Desktop\\WeatherVibez\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-26T22:14:23.062Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SearchWeather.cshtml",
+              "DocumentMoniker": "C:\\Users\\kaden\\OneDrive\\Desktop\\WeatherVibez\\Views\\Weather\\SearchWeather.cshtml",
+              "RelativeDocumentMoniker": "Views\\Weather\\SearchWeather.cshtml",
+              "ToolTip": "C:\\Users\\kaden\\OneDrive\\Desktop\\WeatherVibez\\Views\\Weather\\SearchWeather.cshtml",
+              "RelativeToolTip": "Views\\Weather\\SearchWeather.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-27T22:44:01.972Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "testingAdmin.cshtml",
+              "DocumentMoniker": "C:\\Users\\kaden\\OneDrive\\Desktop\\WeatherVibez\\Views\\Users\\testingAdmin.cshtml",
+              "RelativeDocumentMoniker": "Views\\Users\\testingAdmin.cshtml",
+              "ToolTip": "C:\\Users\\kaden\\OneDrive\\Desktop\\WeatherVibez\\Views\\Users\\testingAdmin.cshtml",
+              "RelativeToolTip": "Views\\Users\\testingAdmin.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-27T00:41:22.731Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Overview.cshtml",
+              "DocumentMoniker": "C:\\Users\\kaden\\OneDrive\\Desktop\\WeatherVibez\\Views\\Users\\Overview.cshtml",
+              "RelativeDocumentMoniker": "Views\\Users\\Overview.cshtml",
+              "ToolTip": "C:\\Users\\kaden\\OneDrive\\Desktop\\WeatherVibez\\Views\\Users\\Overview.cshtml",
+              "RelativeToolTip": "Views\\Users\\Overview.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-26T21:49:17.192Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\kaden\\OneDrive\\Desktop\\WeatherVibez\\Views\\Users\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Users\\Create.cshtml",
+              "ToolTip": "C:\\Users\\kaden\\OneDrive\\Desktop\\WeatherVibez\\Views\\Users\\Create.cshtml",
+              "RelativeToolTip": "Views\\Users\\Create.cshtml",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAAEoAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-26T21:49:05.727Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\kaden\\OneDrive\\Desktop\\WeatherVibez\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "C:\\Users\\kaden\\OneDrive\\Desktop\\WeatherVibez\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-26T21:48:59.395Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "_LayoutPublic.cshtml",
+              "DocumentMoniker": "C:\\Users\\kaden\\OneDrive\\Desktop\\WeatherVibez\\Views\\Shared\\_LayoutPublic.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_LayoutPublic.cshtml",
+              "ToolTip": "C:\\Users\\kaden\\OneDrive\\Desktop\\WeatherVibez\\Views\\Shared\\_LayoutPublic.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_LayoutPublic.cshtml",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAAEoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-30T21:34:21.719Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "_LayoutLoggedIn.cshtml",
+              "DocumentMoniker": "C:\\Users\\kaden\\OneDrive\\Desktop\\WeatherVibez\\Views\\Shared\\_LayoutLoggedIn.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_LayoutLoggedIn.cshtml",
+              "ToolTip": "C:\\Users\\kaden\\OneDrive\\Desktop\\WeatherVibez\\Views\\Shared\\_LayoutLoggedIn.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_LayoutLoggedIn.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAH4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-26T21:48:58.111Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "PurchasePremium.cshtml",
+              "DocumentMoniker": "C:\\Users\\kaden\\OneDrive\\Desktop\\WeatherVibez\\Views\\Premium\\PurchasePremium.cshtml",
+              "RelativeDocumentMoniker": "Views\\Premium\\PurchasePremium.cshtml",
+              "ToolTip": "C:\\Users\\kaden\\OneDrive\\Desktop\\WeatherVibez\\Views\\Premium\\PurchasePremium.cshtml",
+              "RelativeToolTip": "Views\\Premium\\PurchasePremium.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-03T04:29:00.166Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "PremiumNotifications.cshtml",
+              "DocumentMoniker": "C:\\Users\\kaden\\OneDrive\\Desktop\\WeatherVibez\\Views\\Premium\\PremiumNotifications.cshtml",
+              "RelativeDocumentMoniker": "Views\\Premium\\PremiumNotifications.cshtml",
+              "ToolTip": "C:\\Users\\kaden\\OneDrive\\Desktop\\WeatherVibez\\Views\\Premium\\PremiumNotifications.cshtml",
+              "RelativeToolTip": "Views\\Premium\\PremiumNotifications.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-03T05:35:27.77Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "PaymentSuccess.cshtml",
+              "DocumentMoniker": "C:\\Users\\kaden\\OneDrive\\Desktop\\WeatherVibez\\Views\\Payments\\PaymentSuccess.cshtml",
+              "RelativeDocumentMoniker": "Views\\Payments\\PaymentSuccess.cshtml",
+              "ToolTip": "C:\\Users\\kaden\\OneDrive\\Desktop\\WeatherVibez\\Views\\Payments\\PaymentSuccess.cshtml",
+              "RelativeToolTip": "Views\\Payments\\PaymentSuccess.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-28T23:10:24.964Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Balance.cshtml",
+              "DocumentMoniker": "C:\\Users\\kaden\\OneDrive\\Desktop\\WeatherVibez\\Views\\Payments\\Balance.cshtml",
+              "RelativeDocumentMoniker": "Views\\Payments\\Balance.cshtml",
+              "ToolTip": "C:\\Users\\kaden\\OneDrive\\Desktop\\WeatherVibez\\Views\\Payments\\Balance.cshtml",
+              "RelativeToolTip": "Views\\Payments\\Balance.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD8AAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-28T23:06:10.096Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\kaden\\OneDrive\\Desktop\\WeatherVibez\\Views\\Home\\Login.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Login.cshtml",
+              "ToolTip": "C:\\Users\\kaden\\OneDrive\\Desktop\\WeatherVibez\\Views\\Home\\Login.cshtml",
+              "RelativeToolTip": "Views\\Home\\Login.cshtml",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAswEkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-26T21:47:51.376Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\kaden\\OneDrive\\Desktop\\WeatherVibez\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\kaden\\OneDrive\\Desktop\\WeatherVibez\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-26T21:47:48.134Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "UserDetails.cs",
+              "DocumentMoniker": "C:\\Users\\kaden\\OneDrive\\Desktop\\WeatherVibez\\ViewModels\\UserDetails.cs",
+              "RelativeDocumentMoniker": "ViewModels\\UserDetails.cs",
+              "ToolTip": "C:\\Users\\kaden\\OneDrive\\Desktop\\WeatherVibez\\ViewModels\\UserDetails.cs",
+              "RelativeToolTip": "ViewModels\\UserDetails.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T22:53:16.518Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "LoginViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\kaden\\OneDrive\\Desktop\\WeatherVibez\\ViewModels\\LoginViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\LoginViewModel.cs",
+              "ToolTip": "C:\\Users\\kaden\\OneDrive\\Desktop\\WeatherVibez\\ViewModels\\LoginViewModel.cs",
+              "RelativeToolTip": "ViewModels\\LoginViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T21:47:34.299Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "CityComparison.cs",
+              "DocumentMoniker": "C:\\Users\\kaden\\OneDrive\\Desktop\\WeatherVibez\\ViewModels\\CityComparison.cs",
+              "RelativeDocumentMoniker": "ViewModels\\CityComparison.cs",
+              "ToolTip": "C:\\Users\\kaden\\OneDrive\\Desktop\\WeatherVibez\\ViewModels\\CityComparison.cs",
+              "RelativeToolTip": "ViewModels\\CityComparison.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-01T23:40:57.493Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "JwtService.cs",
+              "DocumentMoniker": "C:\\Users\\kaden\\OneDrive\\Desktop\\WeatherVibez\\Services\\JwtService.cs",
+              "RelativeDocumentMoniker": "Services\\JwtService.cs",
+              "ToolTip": "C:\\Users\\kaden\\OneDrive\\Desktop\\WeatherVibez\\Services\\JwtService.cs",
+              "RelativeToolTip": "Services\\JwtService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T21:47:12.738Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "WeatherModel.cs",
+              "DocumentMoniker": "C:\\Users\\kaden\\OneDrive\\Desktop\\WeatherVibez\\Models\\WeatherModel.cs",
+              "RelativeDocumentMoniker": "Models\\WeatherModel.cs",
+              "ToolTip": "C:\\Users\\kaden\\OneDrive\\Desktop\\WeatherVibez\\Models\\WeatherModel.cs",
+              "RelativeToolTip": "Models\\WeatherModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-01T05:32:43.144Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "WeatherApiData.cs",
+              "DocumentMoniker": "C:\\Users\\kaden\\OneDrive\\Desktop\\WeatherVibez\\Models\\WeatherApiData.cs",
+              "RelativeDocumentMoniker": "Models\\WeatherApiData.cs",
+              "ToolTip": "C:\\Users\\kaden\\OneDrive\\Desktop\\WeatherVibez\\Models\\WeatherApiData.cs",
+              "RelativeToolTip": "Models\\WeatherApiData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-01T06:23:09.018Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "UserDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\kaden\\OneDrive\\Desktop\\WeatherVibez\\Models\\UserDbContext.cs",
+              "RelativeDocumentMoniker": "Models\\UserDbContext.cs",
+              "ToolTip": "C:\\Users\\kaden\\OneDrive\\Desktop\\WeatherVibez\\Models\\UserDbContext.cs",
+              "RelativeToolTip": "Models\\UserDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T21:46:50.234Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\kaden\\OneDrive\\Desktop\\WeatherVibez\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Models\\User.cs",
+              "ToolTip": "C:\\Users\\kaden\\OneDrive\\Desktop\\WeatherVibez\\Models\\User.cs",
+              "RelativeToolTip": "Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T21:45:59.814Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "CustomClaims.cs",
+              "DocumentMoniker": "C:\\Users\\kaden\\OneDrive\\Desktop\\WeatherVibez\\CutomClaims\\CustomClaims.cs",
+              "RelativeDocumentMoniker": "CutomClaims\\CustomClaims.cs",
+              "ToolTip": "C:\\Users\\kaden\\OneDrive\\Desktop\\WeatherVibez\\CutomClaims\\CustomClaims.cs",
+              "RelativeToolTip": "CutomClaims\\CustomClaims.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T20:34:27.497Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\kaden\\OneDrive\\Desktop\\WeatherVibez\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\kaden\\OneDrive\\Desktop\\WeatherVibez\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAG0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T21:43:56.641Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "PaymentsController.cs",
+              "DocumentMoniker": "C:\\Users\\kaden\\OneDrive\\Desktop\\WeatherVibez\\Controllers\\PaymentsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\PaymentsController.cs",
+              "ToolTip": "C:\\Users\\kaden\\OneDrive\\Desktop\\WeatherVibez\\Controllers\\PaymentsController.cs",
+              "RelativeToolTip": "Controllers\\PaymentsController.cs",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAswGIAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-28T00:00:57.01Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "C:\\Users\\kaden\\OneDrive\\Desktop\\WeatherVibez\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UsersController.cs",
+              "ToolTip": "C:\\Users\\kaden\\OneDrive\\Desktop\\WeatherVibez\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "Controllers\\UsersController.cs",
+              "ViewState": "AgIAAHUAAAAAAAAAAAAAAFIAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T21:44:53.066Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "WeatherVibez.csproj",
+              "DocumentMoniker": "C:\\Users\\kaden\\OneDrive\\Desktop\\WeatherVibez\\WeatherVibez.csproj",
+              "RelativeDocumentMoniker": "WeatherVibez.csproj",
+              "ToolTip": "C:\\Users\\kaden\\OneDrive\\Desktop\\WeatherVibez\\WeatherVibez.csproj",
+              "RelativeToolTip": "WeatherVibez.csproj",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-04-01T05:15:59.614Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "SMSModel.cs",
+              "DocumentMoniker": "C:\\Users\\kaden\\OneDrive\\Desktop\\WeatherVibez\\Models\\SMSModel.cs",
+              "RelativeDocumentMoniker": "Models\\SMSModel.cs",
+              "ToolTip": "C:\\Users\\kaden\\OneDrive\\Desktop\\WeatherVibez\\Models\\SMSModel.cs",
+              "RelativeToolTip": "Models\\SMSModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-01T05:56:37.305Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "site.js",
+              "DocumentMoniker": "C:\\Users\\kaden\\OneDrive\\Desktop\\WeatherVibez\\wwwroot\\js\\site.js",
+              "RelativeDocumentMoniker": "wwwroot\\js\\site.js",
+              "ToolTip": "C:\\Users\\kaden\\OneDrive\\Desktop\\WeatherVibez\\wwwroot\\js\\site.js",
+              "RelativeToolTip": "wwwroot\\js\\site.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-03-26T22:11:50.002Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "_LayoutPublic.cshtml.css",
+              "DocumentMoniker": "C:\\Users\\kaden\\OneDrive\\Desktop\\WeatherVibez\\Views\\Shared\\_LayoutPublic.cshtml.css",
+              "RelativeDocumentMoniker": "Views\\Shared\\_LayoutPublic.cshtml.css",
+              "ToolTip": "C:\\Users\\kaden\\OneDrive\\Desktop\\WeatherVibez\\Views\\Shared\\_LayoutPublic.cshtml.css",
+              "RelativeToolTip": "Views\\Shared\\_LayoutPublic.cshtml.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-03-30T21:35:36.073Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "bootstrap.css",
+              "DocumentMoniker": "C:\\Users\\kaden\\OneDrive\\Desktop\\WeatherVibez\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+              "RelativeDocumentMoniker": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+              "ToolTip": "C:\\Users\\kaden\\OneDrive\\Desktop\\WeatherVibez\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+              "RelativeToolTip": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAwwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-03-26T22:14:39.201Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "bootstrap-grid.css",
+              "DocumentMoniker": "C:\\Users\\kaden\\OneDrive\\Desktop\\WeatherVibez\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+              "RelativeDocumentMoniker": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+              "ToolTip": "C:\\Users\\kaden\\OneDrive\\Desktop\\WeatherVibez\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+              "RelativeToolTip": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+              "ViewState": "AgIAAH0BAAAAAAAAAIBZwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-03-26T22:14:41.748Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "_LayoutLoggedIn.cshtml.css",
+              "DocumentMoniker": "C:\\Users\\kaden\\OneDrive\\Desktop\\WeatherVibez\\Views\\Shared\\_LayoutLoggedIn.cshtml.css",
+              "RelativeDocumentMoniker": "Views\\Shared\\_LayoutLoggedIn.cshtml.css",
+              "ToolTip": "C:\\Users\\kaden\\OneDrive\\Desktop\\WeatherVibez\\Views\\Shared\\_LayoutLoggedIn.cshtml.css",
+              "RelativeToolTip": "Views\\Shared\\_LayoutLoggedIn.cshtml.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-03-26T22:24:30.608Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "bootstrap-reboot.css",
+              "DocumentMoniker": "C:\\Users\\kaden\\OneDrive\\Desktop\\WeatherVibez\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+              "RelativeDocumentMoniker": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+              "ToolTip": "C:\\Users\\kaden\\OneDrive\\Desktop\\WeatherVibez\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+              "RelativeToolTip": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+              "ViewState": "AgIAAPgAAAAAAAAAAAAUwAQBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-03-26T22:14:44.618Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "dbo.AspNetRoles.sql",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/VibeVaultDB/True/SqlTable/dbo.AspNetRoles.sql",
+              "ToolTip": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/VibeVaultDB/True/SqlTable/dbo.AspNetRoles.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-03-26T23:43:39.388Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "dbo.AspNetUsers.sql",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/VibeVaultDB/True/SqlTable/dbo.AspNetUsers.sql",
+              "ToolTip": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/VibeVaultDB/True/SqlTable/dbo.AspNetUsers.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-03-26T23:17:16.43Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "dbo.AspNetUserRoles.sql",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/VibeVaultDB/True/SqlTable/dbo.AspNetUserRoles.sql",
+              "ToolTip": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/VibeVaultDB/True/SqlTable/dbo.AspNetUserRoles.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-03-26T23:16:53.57Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "favicon.ico",
+              "DocumentMoniker": "C:\\Users\\kaden\\OneDrive\\Desktop\\WeatherVibez\\wwwroot\\favicon.ico",
+              "RelativeDocumentMoniker": "wwwroot\\favicon.ico",
+              "ToolTip": "C:\\Users\\kaden\\OneDrive\\Desktop\\WeatherVibez\\wwwroot\\favicon.ico",
+              "RelativeToolTip": "wwwroot\\favicon.ico",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001525|",
+              "WhenOpened": "2025-03-26T22:26:23.493Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "bootstrap.css.map",
+              "DocumentMoniker": "C:\\Users\\kaden\\OneDrive\\Desktop\\WeatherVibez\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+              "RelativeDocumentMoniker": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+              "ToolTip": "C:\\Users\\kaden\\OneDrive\\Desktop\\WeatherVibez\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+              "RelativeToolTip": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-03-26T22:26:33.057Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "bootstrap.js",
+              "DocumentMoniker": "C:\\Users\\kaden\\OneDrive\\Desktop\\WeatherVibez\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+              "RelativeDocumentMoniker": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+              "ToolTip": "C:\\Users\\kaden\\OneDrive\\Desktop\\WeatherVibez\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+              "RelativeToolTip": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-03-26T22:14:54.333Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\kaden\\OneDrive\\Desktop\\WeatherVibez\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\kaden\\OneDrive\\Desktop\\WeatherVibez\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "wwwroot\\css\\site.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-03-26T22:11:46.244Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "bootstrap-utilities.css",
+              "DocumentMoniker": "C:\\Users\\kaden\\OneDrive\\Desktop\\WeatherVibez\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+              "RelativeDocumentMoniker": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+              "ToolTip": "C:\\Users\\kaden\\OneDrive\\Desktop\\WeatherVibez\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+              "RelativeToolTip": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-03-26T22:14:47.032Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\kaden\\OneDrive\\Desktop\\WeatherVibez\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "appsettings.Development.json",
+              "ToolTip": "C:\\Users\\kaden\\OneDrive\\Desktop\\WeatherVibez\\appsettings.Development.json",
+              "RelativeToolTip": "appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-26T21:49:33.936Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

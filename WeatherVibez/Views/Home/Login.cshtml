@@ -1,0 +1,73 @@
+﻿@using WeatherVibez.ViewModels
+@{
+    Layout = "_LayoutPublic";
+    ViewData["Title"] = "Login";
+}
+@model LoginViewModel
+
+<style>
+    /* Login view specific adjustments */
+    .login-view-wrapper {
+        min-height: calc(100vh - 160px); /* Account for navbar+footer */
+        display: flex;
+        align-items: center;
+    }
+
+    .login-view-card {
+        width: 100%;
+        max-width: 500px;
+        margin: 0 auto;
+    }
+</style>
+
+<div class="login-view-wrapper">
+    <div class="login-view-card">
+        <div class="card border-0 shadow-sm">
+            <div class="card-body p-4">
+                <div class="text-center mb-4">
+                    <h2 class="vibe-vault-brand mb-3">Weather Vibez</h2>
+                    <p class="text-muted">Sign in to your account</p>
+                </div>
+
+                <!-- Form to handle user login -->
+                <form asp-action="Login" method="post">
+                    <div class="mb-3">
+                        <label class="form-label fw-bold">Email Address</label>
+                        <!-- Input for email address, bound to the Email property in LoginViewModel -->
+                        <input type="email" class="form-control"
+                               asp-for="Email" required
+                               placeholder="Enter your email">
+                    </div>
+
+                    <div class="mb-4">
+                        <label class="form-label fw-bold">Password</label>
+                        <!-- Input for password, bound to the Password property in LoginViewModel -->
+                        <input type="password" class="form-control"
+                               asp-for="Password" required
+                               placeholder="Enter your password">
+                    </div>
+
+                    <div class="d-grid gap-2">
+                        <!-- Submit button to log in -->
+                        <button type="submit" class="btn btn-primary btn-sm">
+                            Sign In
+                        </button>
+                        <!-- Link to the Create Account page in UsersController -->
+                        <a href="@Url.Action("Create", "Users")"
+                           class="btn btn-outline-primary btn-sm">
+                            <i class="bi bi-person-plus me-1"></i>
+                            Create New Account
+                        </a>
+                        <div class="text-center mt-3">
+                            <!-- Link to go back to the Home page -->
+                            <a href="@Url.Action("Index", "Home")"
+                               class="text-muted text-decoration-none">
+                                Back to Home
+                            </a>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

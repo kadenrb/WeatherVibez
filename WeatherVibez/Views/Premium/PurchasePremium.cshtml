@@ -1,0 +1,30 @@
+﻿<div class="container py-5">
+    <div class="row justify-content-center">
+        <div class="col-md-8 col-lg-6">
+            <div class="card shadow-lg border-0">
+                <div class="card-header bg-primary text-white">
+                    <h2 class="mb-0">Premium Purchase</h2>
+                </div>
+                <div class="card-body">
+                    <p class="lead">
+                        Do you want to make a one-time premium purchase for <strong>5.99 $CAD</strong> (tax included)?
+                    </p>
+                    <p>This will allow you to receive daily weather updates via text message.</p>
+                    <div class="d-flex justify-content-between mt-4">
+                        <!-- Form to confirm premium purchase, posts to PurchasePremiumConfiremed action in PremiumController -->
+                        <form asp-action="PurchasePremiumConfiremed" method="post">
+                            <button type="submit" class="btn btn-primary">
+                                Yes! Give me the weather updates!
+                            </button>
+                        </form>
+                        <!-- Link to go back to the weather search page -->
+                        <a asp-action="SearchWeather" asp-controller="Weather" class="btn btn-danger">
+                            No! Take me back to weather searching!
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+

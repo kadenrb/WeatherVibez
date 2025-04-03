@@ -1,0 +1,64 @@
+﻿<div class="container py-5">
+    <div class="row justify-content-center">
+        <div class="col-md-8 col-lg-6">
+            <div class="card shadow-lg border-0">
+                <div class="card-header bg-primary text-white">
+                    <h2 class="h4 mb-0">
+                        <i class="bi bi-bell-fill me-2"></i>Premium Notifications
+                    </h2>
+                </div>
+
+                <div class="card-body">
+                    <!-- Form to handle premium notifications settings -->
+                    <form asp-action="PremiumNotifications" method="post">
+                        <p class="lead text-bg-dark text-center mb-4">
+                            Stay updated daily with premium weather alerts!
+                        </p>
+
+                        <!-- Phone Number Input -->
+                        <div class="mb-4">
+                            <label class="form-label fw-bold">
+                                Notification Settings
+                            </label>
+                            <div class="input-group">
+                                <span class="input-group-text text-bg-primary">
+                                    <i class="bi bi-telephone-plus"></i>
+                                    +1
+                                </span>
+                                <!-- Input for phone number, sent to PremiumNotifications action in PremiumController -->
+                                <input type="tel"
+                                       class="form-control form-control-lg"
+                                       name="phoneNumber"
+                                       placeholder="Enter phone number (use 0 to disable)">
+                            </div>
+                        </div>
+
+                        <!-- City Input -->
+                        <div class="mb-4">
+                            <label class="form-label fw-bold">
+                                City for Updates
+                            </label>
+                            <div class="input-group">
+                                <!-- Input for city, sent to PremiumNotifications action in PremiumController -->
+                                <input type="text"
+                                       class="form-control form-control-lg"
+                                       name="city"
+                                       placeholder="Enter city (e.g., Seattle, Toronto)"
+                                       required>
+                            </div>
+                        </div>
+
+                        <!-- Submit Button -->
+                        <div class="d-grid gap-2 mt-5">
+                            <!-- Button to submit the form and save preferences -->
+                            <button type="submit" class="btn btn-primary btn-lg">
+                                <i class="bi bi-save me-2"></i>Save Preferences & Get a test copy
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+

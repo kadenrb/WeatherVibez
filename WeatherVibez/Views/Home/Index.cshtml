@@ -1,0 +1,28 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="row justify-content-center mt-5">
+    <div class="col-md-8 col-md-6 text-center">
+        <div class="card border-0 shadow-md">
+            <div class="card-body p-5">
+                <h1 class="display-4 mb-4">Welcome to</h1>
+                <h1 class="display-2 mb-4" style="font-family: 'Orbitron', sans-serif; color: #FF5F1F">Weather Vibez</h1>
+                <p class="display-6 mb-4">The Vibiest Weather platform</p>
+
+                <div class="d-grid gap-3 d-md-block mt-4">
+                    <!-- Link to the Login page -->
+                    <a href="@Url.Action("Login")"
+                       class="btn btn-primary btn-md px-5 me-md-3">
+                        Login
+                    </a>
+                    <!-- Link to the Create Account page in UsersController -->
+                    <a href="@Url.Action("Create", "Users")"
+                       class="btn btn-outline-primary btn-md px-5">
+                        <i class="bi bi-person-plus me-2"></i>Create Account
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,126 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/bootstrapVapour.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet">
+    <!-- Bootstrap icons for more visuals -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <base href="/" />
+    @{
+        var pageTitle = ViewData["Title"] as string;
+    }
+    <title>@(string.IsNullOrEmpty(pageTitle) ? "WeatherVibez" : $"{pageTitle} - WeatherVibez")</title>
+    @* Rest of head *@
+    <base href="/" />
+</head>
+<body class="d-flex flex-column min-vh-100">
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark position-sticky bg-primary border-bottom py-3">
+            <!-- Increased vertical padding -->
+            <div class="container">
+                <!-- Link to the Home page -->
+                <a class="navbar-brand fw-bold fs-3" style="font-family: 'Orbitron', sans-serif; color: #7DF9FF; font-size: 1.8rem" asp-controller="Home" asp-action="Index">
+                    WeatherVibez
+                </a>
+
+                <button class="navbar-toggler p-2" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="mainNav">
+                    <ul class="navbar-nav me-auto">
+                        <li class="nav-item px-3 py-2">
+                            <!-- Link to the SearchWeather action in WeatherController -->
+                            <a class="nav-link fs-5" asp-controller="Weather" asp-action="SearchWeather">
+                                <i class="bi bi-sun me-2 fs-5"></i>Weather
+                            </a>
+                        </li>
+                        <li class="nav-item px-3 py-2">
+                            <!-- Link to the Balance action in PaymentsController -->
+                            <a class="nav-link fs-5" asp-controller="Payments" asp-action="Balance">
+                                <i class="bi bi-wallet2 me-2 fs-5"></i>Balance
+                            </a>
+                        </li>
+                        @if (User.IsInRole("Admin"))
+                        {
+                            <li class="nav-item px-3 py-2">
+                                <!-- Link to the Overview action in UsersController for Admin users -->
+                                <a class="nav-link text-warning fs-5" asp-controller="Users" asp-action="Overview">
+                                    <i class="bi bi-people me-2 fs-5"></i>Users
+                                </a>
+                            </li>
+                        }
+                        @if (User.IsInRole("Admin") || User.IsInRole("Premium"))
+                        {
+                            <li class="nav-item px-3 py-2">
+                                <!-- Link to the PremiumNotifications action in PremiumController for Admin and Premium users -->
+                                <a class="nav-link text-danger fs-5" asp-controller="Premium" asp-action="PremiumNotifications">
+                                    <i class="bi bi-award me-2 fs-5"></i>Premium Settings!
+                                </a>
+                            </li>
+                        }
+                    </ul>
+                </div>
+            </div>
+            <div id="sidebar">
+                <!-- Button to open the modal for daily updates -->
+                <a class="btn btn-warning position-fixed top-0 end-0 mt-3 me-3" data-bs-toggle="modal" data-bs-target="#updatesPopupModal">
+                    <i class="bi bi-bell-fill"></i> Want Daily Updates?
+                </a>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container flex-grow-1 my-4">
+        @RenderBody()
+    </main>
+
+    <footer class="bg-dark text-white py-5 mt-5">
+        <div class="container">
+            <div class="text-center">
+                <h4>Weather Vibez</h4>
+                <p class="text-muted">The site with the ultimate vibes</p>
+            </div>
+            <hr class="my-4">
+            <div class="text-center text-muted">
+                &copy; 2025 Weather Vibez - Kaden, Kris and Mike
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap popup modal to confirm user wants premium -->
+    <div id="updatesPopupModal" class="modal fade" tabindex="-1" aria-labelledby="updatesPopupModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header bg-primary text-white">
+                    <h5 class="modal-title" id="updatesPopupModalLabel">
+                        Want Daily Updates?
+                    </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p class="lead">
+                        Our daily updates feature will send you a forecast in the form of a text message every morning
+                        to keep you updated on the weather in the city of your choosing.
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <!-- Link to the PurchasePremium action in PremiumController -->
+                    <a href="@Url.Action("PurchasePremium", "Premium")" class="btn btn-info">Continue</a>
+                    <button type="button" class="btn btn-outline-dark" data-bs-dismiss="modal">Back</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>
+

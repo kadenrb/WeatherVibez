@@ -1,0 +1,147 @@
+﻿@using WeatherVibez.Models
+@model (WeatherModel City1, WeatherModel City2)
+
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <div class="card shadow-sm">
+                <div class="card-header bg-primary text-white d-flex justify-content-between align-items-center">
+                    <h2 class="mb-0">Compare Cities</h2>
+                    <!-- Link to the City Search page -->
+                    <a href="@Url.Action("SearchWeather", "Weather")"
+                       class="btn btn-outline-light btn-sm">
+                        City Search
+                    </a>
+                </div>
+                <div class="card-body">
+                    <!-- Form to compare weather between two cities -->
+                    <form asp-action="CompareWeather" method="post">
+                        <div class="row">
+                            <div class="col-md-6 mb-3">
+                                <!-- Input for the first city -->
+                                <input type="text" class="form-control form-control-lg"
+                                       name="city1" placeholder="First city (ex. Lisbon)" required>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <!-- Input for the second city -->
+                                <input type="text" class="form-control form-control-lg"
+                                       name="city2" placeholder="Second city (ex. Edmonton)" required>
+                            </div>
+                        </div>
+                        <!-- Button to submit the form and compare cities -->
+                        <button type="submit" class="btn btn-primary btn-lg w-100">
+                            Compare Cities
+                        </button>
+                    </form>
+
+                    <!-- Alerts for success or error messages -->
+                    @if (TempData["Alert"] != null)
+                    {
+                        <div class="alert alert-success mt-4">
+                            @TempData["Alert"]
+                        </div>
+                    }
+                    @if (TempData["Error"] != null)
+                    {
+                        <div class="alert alert-danger mt-4">
+                            @TempData["Error"]
+                        </div>
+                    }
+
+                    @if (Model.City1 != null && Model.City2 != null)
+                    {
+                        <div class="mt-4">
+                            <!-- Comparison Chart -->
+                            <div class="card">
+                                <div class="card-header bg-info text-white">
+                                    <h4 class="mb-0">Temperature Comparison</h4>
+                                </div>
+                                <div class="card-body">
+                                    <!-- Using the GenerateComparisonChart action in the WeatherController to get the API graph image -->
+                                    <img src="@Url.Action("GenerateComparisonChart", "Weather", new {
+                                        labels = new[] { Model.City1.City, Model.City2.City },
+                                        temps = new[] { Model.City1.Temperature, Model.City2.Temperature },
+                                        maxTemps = new[] { Model.City1.TempMax, Model.City2.TempMax },
+                                        minTemps = new[] { Model.City1.TempMin, Model.City2.TempMin }
+                                    })"
+                                         class="img-fluid rounded-3"
+                                         alt="Temperature Comparison Chart">
+                                </div>
+                            </div>
+
+                            <!-- Weather Cards for each city -->
+                            <div class="row mt-4">
+                                <div class="col-md-6">
+                                    <div class="card shadow-sm">
+                                        <div class="card-header bg-secondary text-white">
+                                            <!-- Display dta for City 1 -->
+                                            <h5>@Model.City1.City</h5>
+                                        </div>
+                                        <div class="card-body">
+                                            <ul class="list-group list-group-flush">
+                                                <li class="list-group-item">
+                                                    <i class="bi bi-thermometer-half"></i> Current: @Model.City1.Temperature°C
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <i class="bi bi-arrow-up"></i> High: @Model.City1.TempMax°C
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <i class="bi bi-arrow-down"></i> Low: @Model.City1.TempMin°C
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <i class="bi bi-droplet"></i> Humidity: @Model.City1.Humidity%
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-6">
+                                    <div class="card shadow-sm">
+                                        <div class="card-header bg-secondary text-white">
+                                            <h5>@Model.City2.City</h5>
+                                        </div>
+                                        <!-- Display dta for City 2-->
+                                        <div class="card-body">
+                                            <ul class="list-group list-group-flush">
+                                                <li class="list-group-item">
+                                                    <i class="bi bi-thermometer-half"></i> Current: @Model.City2.Temperature°C
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <i class="bi bi-arrow-up"></i> High: @Model.City2.TempMax°C
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <i class="bi bi-arrow-down"></i> Low: @Model.City2.TempMin°C
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <i class="bi bi-droplet"></i> Humidity: @Model.City2.Humidity%
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+    .list-group-item {
+        border: none;
+        padding: 1rem 1.25rem;
+    }
+
+    .card {
+        border-radius: 1rem;
+        overflow: hidden;
+    }
+
+    .form-control-lg {
+        border-radius: 0.75rem;
+    }
+</style>
+

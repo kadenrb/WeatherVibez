@@ -1,0 +1,60 @@
+﻿@using WeatherVibez.ViewModels
+@model IEnumerable<UserDetails>
+@{
+    ViewData["Title"] = "Users Overview";
+}
+
+<div class="container mt-5">
+    <div class="card shadow-lg">
+        <div class="card-header bg-primary text-white">
+            <h1 class="card-title mb-0">
+                User Management
+            </h1>
+        </div>
+
+        <div class="card-body">
+            <div class="d-flex justify-content-between align-items-center mb-4">
+                <h2 class="h4">Registered Users</h2>
+                <!-- Link to the Create User page in UsersController -->
+                <a href="@Url.Action("Create", "Users")" class="btn btn-success">
+                    <i class="bi bi-person-plus me-2"></i>Create New User
+                </a>
+                <!-- Link to the SearchWeather action in WeatherController -->
+                <a class="nav-link fs-5" asp-controller="Weather" asp-action="SearchWeather">
+                    <i class="bi bi-joystick me-2 fs-5"></i>Weather
+                </a>
+            </div>
+
+            <div class="table-responsive">
+                <table class="table table-striped table-hover">
+                    <thead class="table-dark">
+                        <tr>
+                            <th>User Name</th>
+                            <th>Email</th>
+                            <th>Roles</th>
+                            <th class="text-end">Balance</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!-- Get every users details and display them -->
+                        @foreach (var userDetails in Model)
+                        {
+                            <tr>
+                                <td>@userDetails.User.UserName</td>
+                                <td>@userDetails.User.Email</td>
+                                <td>
+                                    @foreach (var role in userDetails.Roles)
+                                    {
+                                        <span class="badge bg-secondary me-1">@role</span>
+                                    }
+                                </td>
+                                <td class="text-end fw-bold">@userDetails.Balance.ToString("C")</td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+
