@@ -270,8 +270,8 @@ C:\Users\kaden\OneDrive\Desktop\VibeVaultC# - Copy\obj\Debug\net8.0\ref\WeatherV
 C:\Users\kaden\OneDrive\Desktop\VibeVaultC# - Copy\bin\Debug\net8.0\Twilio.dll
 C:\Users\kaden\OneDrive\Desktop\WeatherVibez\bin\Debug\net8.0\appsettings.Development.json
 C:\Users\kaden\OneDrive\Desktop\WeatherVibez\bin\Debug\net8.0\appsettings.json
-C:\Users\kaden\OneDrive\Desktop\WeatherVibez\bin\Debug\net8.0\WeatherVibez.staticwebassets.endpoints.json
 C:\Users\kaden\OneDrive\Desktop\WeatherVibez\bin\Debug\net8.0\WeatherVibez.staticwebassets.runtime.json
+C:\Users\kaden\OneDrive\Desktop\WeatherVibez\bin\Debug\net8.0\WeatherVibez.staticwebassets.endpoints.json
 C:\Users\kaden\OneDrive\Desktop\WeatherVibez\bin\Debug\net8.0\WeatherVibez.exe
 C:\Users\kaden\OneDrive\Desktop\WeatherVibez\bin\Debug\net8.0\WeatherVibez.deps.json
 C:\Users\kaden\OneDrive\Desktop\WeatherVibez\bin\Debug\net8.0\WeatherVibez.runtimeconfig.json

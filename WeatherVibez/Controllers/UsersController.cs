@@ -20,7 +20,8 @@ public class UsersController : Controller
 	}
 
 	// GET: /Users/Overview
-	// Retrieves a list of all users with their roles and balance
+	// Retrieves a list of all users with their roles and balance, only for admin
+	[Authorize(Roles ="Admin")]
 	public async Task<IActionResult> Overview()
 	{
 		var users = _userManager.Users.ToList(); // Get all users

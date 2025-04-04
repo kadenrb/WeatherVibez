@@ -7,6 +7,7 @@ using Twilio.Types;
 using VibeVaultC_.Models;
 using WeatherVibez.ViewModels;
 using WeatherVibez.Models;
+using System.Net;
 
 namespace WeatherVibez.Controllers
 {
@@ -116,17 +117,25 @@ namespace WeatherVibez.Controllers
 			var apiKey = _configuration["OpenWeather:ApiKey"];
 			var url = $"https://api.openweathermap.org/data/2.5/weather?q={city}&appid={apiKey}&units=metric";
 
-			var response = await client.GetFromJsonAsync<OpenWeatherResponse>(url);
+			var response = await client.GetAsync(url);
 
-			//Retunring model to the view
+			if (response.StatusCode == HttpStatusCode.NotFound)
+			{
+				TempData["Error"] = "City not found. Please try again";
+				return null;
+			}
+
+			var responseData = await response.Content.ReadFromJsonAsync<OpenWeatherResponse>();
+
+			// Returning model to the view
 			return new WeatherModel
 			{
 				City = city,
-				Temperature = response.Main.Temp,
-				TempMin = response.Main.Temp_min,
-				TempMax = response.Main.Temp_max,
-				Humidity = response.Main.Humidity,
-				Description = response.Weather.FirstOrDefault()?.Description ?? "No description" // if null return "No description"
+				Temperature = responseData.Main.Temp,
+				TempMin = responseData.Main.Temp_min,
+				TempMax = responseData.Main.Temp_max,
+				Humidity = responseData.Main.Humidity,
+				Description = responseData.Weather.FirstOrDefault()?.Description ?? "No description" // if null return "No description"
 			};
 		}
 

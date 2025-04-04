@@ -3,7 +3,7 @@ using WeatherVibez.Models;
 
 namespace WeatherVibez.ViewModels
 {
-	// ViewModel for user details including roles and balance
+	// ViewModel for user details including roles and balance, JUST USED FOR TESTING
 	public class UserDetails
 	{
 		// The user object
